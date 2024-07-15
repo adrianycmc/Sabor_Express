@@ -10,9 +10,9 @@ Este projeto tem como objetivo desenvolver uma aplicação responsável por gere
 <br>
 
 ## 💾 Código
-📂 [Python](https://github.com/adrianycmc/alura-Books/blob/main/index.html)
+📂 [Python](https://github.com/adrianycmc/POO_Sabor-Express/blob/main/app.py)
 <br>
-📂 [Exercícios](https://github.com/adrianycmc/Projeto_Sabor-Express/blob/main/Exercicios..ipynb)
+📂 [Exercícios](https://github.com/adrianycmc/POO_Sabor-Express/blob/main/Exercicios.ipynb)
 <br>
 
 
