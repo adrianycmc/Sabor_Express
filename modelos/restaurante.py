@@ -1,4 +1,5 @@
 from modelos.avaliacao import Avaliacao
+from modelos.cardapio.item_cardapio import ItemCardapio
 
 
 class Restaurante:
@@ -11,6 +12,7 @@ class Restaurante:
         self._categoria = categoria.upper()
         self._ativo = False
         self._avaliacao = []
+        self._cardapio = []
         Restaurante.restaurantes.append(self)
 
     # Self: referência atual da instância que está chamando
@@ -48,11 +50,21 @@ class Restaurante:
         # A função round arredonda os cálculos o (,1) é a quantidade de vídeos que vai querer.
         media = round(soma_das_notas / quantidade_de_notas, 1)
         return media
+        
+    def adicionar_no_cardapio(self, item):
+        
+        #instance verifica se está dentro da classe. É verdadeira se o item que passou como argumento for uma instancia da classe derivada. 
+        if isinstance (item, ItemCardapio):
+            self._cardapio.append(item)
 
-
-# restaurante_praca = Restaurante('praça', 'Gourmet')
-# restaurante_praca.alternar_estado()
-
-# restaurante_pizza = Restaurante('pizza Express', 'Italiana')
-
-# Restaurante.listar_restaurantes()
+    @property            
+    def exibir_cardapio(self):
+        print(f'Cardapio do restaurante {self._nome}\n')
+        for i,item in enumerate(self._cardapio,start=1):
+           if hasattr(item, 'descricao'):
+                mensagem_prato = f'{i}. Nome: {item._nome} | Preço: R${item._preco} | Descrição: {item.descricao}'
+                print(mensagem_prato)
+           else: 
+               mensagem_bebida = f'{i}. Nome: {item._nome} | Preço: R${item._preco} | Tamanho: {item.tamanho}'
+               print(mensagem_bebida)
+            

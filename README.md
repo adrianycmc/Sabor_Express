@@ -1,6 +1,6 @@
 # Sabor Express em POO
 Este projeto tem como objetivo desenvolver uma aplicação responsável por gerenciar um determinado grupo de restaurantes. 
-É uma aplicação simples que aborda conceitos como: programação orientada a objetos, métodos especiais, classes e métodos construtores.
+É uma aplicação simples que aborda conceitos como: programação orientada a objetos, métodos especiais, classes e métodos construtores. Também utilizo FastAPI com endpoints para disponibilizar recursos relacionados aos restaurantes permitindo que usuários acessem informações específicas sobre esses estabelecimentos. 
 
 <br>
 
@@ -36,12 +36,15 @@ Para contribuir com Sabor Express, ou simplesmente clonar e testar em sua máqui
 ## 📜 Certificado do curso que fiz para desenvolver este projeto
 [Python: Crie a sua primeira aplicação](https://cursos.alura.com.br/user/adrianycmc/course/python-crie-sua-primeira-aplicacao/certificate)
 <br>
+[Python: Avance na orientação a objetos e consuma API](https://cursos.alura.com.br/user/adrianycmc/course/python-avance-orientacao-objetos-consuma-api/certificate)
 <br>
 
 ## Links recomendados para estudo
 [Documentação Python](https://docs.python.org/pt-br/3/)
 <br>
 [O que é Python?](https://www.alura.com.br/artigos/python)
+<br>
+[Como criar APIs em Python usando FastAPI](https://www.alura.com.br/artigos/como-criar-apis-python-usando-fastapi)
 
 
 <p align="left">
