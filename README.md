@@ -33,7 +33,7 @@ Para contribuir com Sabor Express, ou simplesmente clonar e testar em sua máqui
 <br>
 <br>
 
-## 📜 Certificado do curso que fiz para desenvolver este projeto
+## 📜 Certificados dos cursos que fiz para desenvolver este projeto
 [Python: Crie a sua primeira aplicação](https://cursos.alura.com.br/user/adrianycmc/course/python-crie-sua-primeira-aplicacao/certificate)
 <br>
 [Python: Avance na orientação a objetos e consuma API](https://cursos.alura.com.br/user/adrianycmc/course/python-avance-orientacao-objetos-consuma-api/certificate)
