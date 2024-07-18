@@ -1,6 +1,6 @@
 # API Sabor Express
 Este projeto tem como objetivo desenvolver uma aplicação responsável por gerenciar um determinado grupo de restaurantes. 
-É uma aplicação simples que aborda conceitos como: programação orientada a objetos, métodos especiais, classes e métodos construtores. Também utilizo FastAPI com endpoints para disponibilizar recursos relacionados aos restaurantes permitindo que usuários acessem informações específicas sobre esses estabelecimentos. 
+É uma aplicação que aborda conceitos como: programação orientada a objetos, métodos especiais, classes e métodos construtores. Também utilizo FastAPI com endpoints para disponibilizar recursos relacionados aos restaurantes permitindo que usuários acessem informações específicas sobre esses estabelecimentos. 
 
 <br>
 
